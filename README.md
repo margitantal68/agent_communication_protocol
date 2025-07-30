@@ -7,7 +7,7 @@ Link to the original project: [ACP: Agent Communication Protocol](https://www.de
 
 ### Prerequisites
 
-1. Python 3.11 or higher
+1. Python >=`3.11` and <`3.13`
 1. Git
 1. Gemini API key
 
@@ -25,14 +25,14 @@ Link to the original project: [ACP: Agent Communication Protocol](https://www.de
 1. Create and activate a virtual environment
     * On Linux/macOS:
         ```bash
-        python3 -m venv venv
-        source venv/bin/activate
+        python3 -m venv .venv
+        source .venv/bin/activate
         ```
 
     * On Windows:
         ```bash
-        python -m venv venv
-        venv\Scripts\activate
+        python -m venv .venv
+        .venv\Scripts\activate
         ```
 
 1. Install dependencies
@@ -53,7 +53,7 @@ This project requires a Gemini API key.
 
 1. Set the API key in the **.env** file:
     ```bash
-    GEMINI_API_KEY=your_api_key_here
+    GOOGLE_API_KEY=your_api_key_here
     ```
 
 1. Run the project:
