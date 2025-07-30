@@ -1,8 +1,11 @@
 # Agent Communication Protocol
 
-A RAG Agent with CrewAI adapted for Gemini, designed to facilitate communication between agents using a custom protocol. This project allows agents to exchange messages in a structured format, enabling efficient task management and response handling.
+- This project builds a RAG agent with `CrewAI` using **Gemini**. It will do that by integrating RagTool from `crewai_tools` with a `CrewAI` agent. 
+- RagTool provides a way to create and query knowledge bases from various data sources, and allows the agent to access specialized context. 
+- You will provide the RAG tool a pdf (`data` folder).
 
-Link to the original project: [ACP: Agent Communication Protocol](https://www.deeplearning.ai/short-courses/acp-agent-communication-protocol/)
+
+Link to the original course: [ACP: Agent Communication Protocol](https://www.deeplearning.ai/short-courses/acp-agent-communication-protocol/)
 
 
 ### Prerequisites
